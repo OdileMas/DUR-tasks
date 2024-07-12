@@ -1,0 +1,88 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+      
+}
+
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(214, 220, 223, 0.738);
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.company-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 10px;
+    background-color: #e0e0ff;
+    border: 1px solid rgb(116, 116, 237);
+    box-sizing: border-box;
+}
+
+.sidebar-box {
+    margin-top: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 4px solid rgb(176, 176, 228);
+    background-color: rgb(179, 221, 230);
+}
+
+.content {
+    margin-left: 30px;
+    height: 80vh;
+    width: 70%;
+    padding: 20px;
+    background-color: #f8e0ff;
+    border: 2px solid rgb(210, 61, 210);
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+}
